@@ -1,4 +1,4 @@
-console.log("Witam Ciebie na mojej stronie! Dowiesz się trochę o mnie :)");
+console.log("Witam wszystkich na mojej pierwszej stronie!");
 
 let bodyContainer = document.querySelector(".js-body__container");
 let buttonBarca = document.querySelector(".js-button");
