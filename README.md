@@ -3,7 +3,7 @@
 ## Link to my website:
 https://pevu96.github.io/homepage/
 
-## Decription:
+## Description:
 As you can see in title this is my first project. I wrote it about myself during the course at an online school **Youcode**. I'm so exited to start codding.
 
 On the website you will learn more about me. I divided it into several parts:
