@@ -5,20 +5,22 @@
 
     const toggleBackground = () => {
         const bodyContainer = document.querySelector(".js-body__container");
-        const buttonTheme = document.querySelector(".js-button__theme");
+        const buttonName = document.querySelector(".js-themeName");
 
         bodyContainer.classList.toggle("darkTheme");
-        buttonBarca.classList.toggle("darkThemeButton");
-        buttonTheme.innerText = bodyContainer.classList.contains("darkTheme") ? "barceloński" : "czarno-biały";
+        buttonTheme.classList.toggle("darkThemeButton");
+        buttonName.innerText = bodyContainer.classList.contains("darkTheme") ? "barceloński" : "czarno-biały";
     };
 
     const init = () => {
-        const buttonBarca = document.querySelector(".js-button");
+        const buttonTheme = document.querySelector(".js-button");
 
-        buttonBarca.addEventListener("click", toggleBackground);
+        buttonTheme.addEventListener("click", toggleBackground);
 
         welcome();
     }
 
     init();
 }
+
+

@@ -16,22 +16,18 @@ html {
     padding: 10px;
 }
 
-.image {
-    max-width: 1000px
-}
-
-.website__header {
+.header__title {
     background-color: #0b0070;
     text-align: center;
     padding: 12px;
     border-radius: 30px;
 }
 
-.button--middle {
+.header__buttonContainer {
     text-align: center;
 }
 
-.button__theme--barca {
+.header__button {
     color: #fffb03;
     background-color: #0b0070;
     padding: 6px;
@@ -65,12 +61,12 @@ html {
     padding-left: 30px;
 }
 
-.navigation__link {
+.navigation--link {
     color: #fffb03;
     text-decoration: none;
 }
 
-.navigation__link:hover {
+.navigation--link:hover {
     color: #ffd000;
     text-decoration: none;
 }
