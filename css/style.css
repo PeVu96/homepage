@@ -16,6 +16,10 @@ html {
     padding: 10px;
 }
 
+.header__image {
+    width: 100%;
+}
+
 .header__title {
     background-color: #0b0070;
     text-align: center;
@@ -85,6 +89,10 @@ html {
     border-radius: 30px;
     line-height: 1.5;
     background-color: #0b0070;
+}
+
+.section--image {
+    width: 32%;
 }
 
 .table__container {
