@@ -92,8 +92,14 @@ html {
     background-color: #0b0070;
 }
 
-.section--image {
+.section__paragraph--center {
+    display: block;
+    text-align: center;
+}
+
+.section__image {
     width: 32%;
+    padding-top: 10px;
 }
 
 .table__container {
@@ -101,9 +107,8 @@ html {
     border-collapse: collapse;
     font-size: 15px;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 10px;
     border: solid;
-    margin-top: 10px;
 }
 
 .table__header {
@@ -132,8 +137,7 @@ html {
 
 .footer {
     text-align: center;
-    font-size: smaller;
+    font-size: small;
     padding: 5px;
-    font-style: italic;
     font-weight: 400;
 }
