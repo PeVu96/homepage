@@ -1,0 +1,36 @@
+.header__image {
+    width: 100%;
+}
+
+.header__title {
+    border: 2px solid #00008b;
+    background-color: #f8f8ff;
+    text-align: center;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+.darkThemeTitle {
+    background-color: #393e46;
+    color: #d1d1d1;
+    border: 2px solid #d1d1d1;
+}
+
+.header__button {
+    color: #00008b;
+    background-color: #f8f8ff;
+    padding: 6px;
+    font-weight: 550;
+    font-size: 15px;
+    border: 2px solid #00008b;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.darkThemeButton {
+    background-color: #393e46;
+    color: #d1d1d1;
+    border: 2px solid #d1d1d1;
+}

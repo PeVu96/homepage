@@ -1,0 +1,33 @@
+.navigation__list {
+    border: 2px solid #00008b;
+    background-color: #f8f8ff;
+    padding: 8px;
+    border-radius: 20px;
+    font-weight: 550;
+    font-size: 20px;
+    padding-left: 4%;
+    list-style-type: disclosure-closed;
+}
+
+.navigation__link {
+    color: #00008b;
+    text-decoration: none;
+}
+
+.navigation__link:hover {
+    color: #0000ff;
+    text-decoration: none;
+}
+
+.darkThemeNavigation {
+    background-color: #393e46;
+    border: 2px solid #d1d1d1;
+}
+
+.darkThemeNavigationLink {
+    color: #d1d1d1;
+}
+
+.darkThemeNavigationLink:hover {
+    color: #aaa;
+}

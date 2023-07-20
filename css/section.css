@@ -1,0 +1,39 @@
+.section__header {
+    background-color: #f8f8ff;
+    border: 2px solid #00008b;
+    text-align: center;
+    padding: 12px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.darkThemeSectionHeader {
+    background-color: #393e46;
+    color: #d1d1d1;
+    border: 2px solid #d1d1d1;
+}
+
+.section__paragraph {
+    text-align: justify;
+    border: 2px solid #00008b;
+    padding: 12px;
+    border-radius: 20px;
+    line-height: 1.5;
+    background-color: #f8f8ff;
+}
+
+.darkThemeSectionParagraph {
+    background-color: #393e46;
+    color: #d1d1d1;
+    border: 2px solid #d1d1d1;
+}
+
+.section__paragraph--center {
+    display: block;
+    text-align: center;
+}
+
+.section__image {
+    width: 32%;
+    padding-top: 10px;
+}
