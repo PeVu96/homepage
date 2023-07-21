@@ -7,11 +7,6 @@
     border: solid 2px;
 }
 
-.table__header {
-    text-align: center;
-    font-size: 20px;
-}
-
 .table__cell {
     border: solid #00008b;
     padding: 10px;
