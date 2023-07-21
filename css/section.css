@@ -4,7 +4,7 @@
     text-align: center;
     padding: 12px;
     border-radius: 20px;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .darkThemeSectionHeader {
@@ -16,7 +16,7 @@
 .section__paragraph {
     text-align: justify;
     border: 2px solid #00008b;
-    padding: 12px;
+    padding: 10px 20px;
     border-radius: 20px;
     line-height: 1.5;
     background-color: #f8f8ff;
