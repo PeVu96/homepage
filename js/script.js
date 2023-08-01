@@ -3,11 +3,11 @@
         console.log("Witam wszystkich na mojej pierwszej stronie!");
     }
 
-    const buttonTheme = document.querySelector(".js-button");
-
     const toggleBackground = () => {
-        const bodyContainer = document.querySelector(".js-body__container");
         const buttonName = document.querySelector(".js-themeName");
+        
+        const bodyContainer = document.querySelector(".js-body__container");
+        const buttonTheme = document.querySelector(".js-button");
         const headerTitle = document.querySelector(".js-header__title");
         const navigation = document.querySelector(".js-navigation__list");
         const navigationLink1 = document.querySelector(".js-navigation__link1");
