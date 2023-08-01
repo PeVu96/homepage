@@ -7,7 +7,7 @@
         const buttonName = document.querySelector(".js-themeName");
         
         const bodyContainer = document.querySelector(".js-body__container");
-        const buttonTheme = document.querySelector(".js-button");
+        const buttonTheme = document.querySelector(".js-header__button");
         const headerTitle = document.querySelector(".js-header__title");
         const navigation = document.querySelector(".js-navigation__list");
         const navigationLink1 = document.querySelector(".js-navigation__link1");
@@ -90,6 +90,7 @@
     };
 
     const init = () => {
+        const buttonTheme = document.querySelector(".js-header__button");
         buttonTheme.addEventListener("click", toggleBackground);
 
         welcome();
